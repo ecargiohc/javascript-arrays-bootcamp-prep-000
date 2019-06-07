@@ -31,3 +31,36 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 function removeElementFromEndOfArray(array) {
   return array.slice(0, array.length -1)
 }
+
+
+
+function addElementToBeginningOfArray(array, element) {
+  return [element... array]
+}
+function destructivelyAddElementToBeginningOfArray(array, element) {
+  var NewArray= array.unshift(element)
+  return NewArray
+}
+
+function addElementToEndOfArray(array, element) {
+  return element.push()
+}
+function removeElementFromBeginningOfArray (array) {
+  array.slice(1)
+  return array;
+}
+function destructivelyRemoveElementFromEndOfArray (array) {
+  return array.pop();
+}
+function removeElementFromEndOfArray (array) {
+  array.slice(0, array.length -1);
+  return array;
+}
+
+
+
+
+
+
+
+
